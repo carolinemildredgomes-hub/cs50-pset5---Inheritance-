@@ -1,0 +1,21 @@
+License & Author
+
+Author: Caroline Mildred Gomes 
+
+
+---
+
+# Quick troubleshooting checklist (most common problems)
+- **“file not found” for `inheritance.c`**: make sure you `cd inheritance` and `ls`.
+- **Compiler warnings turned into errors** (`-Werror`): fix warnings or compile without `-Werror` for debugging.
+- **Segfault**: likely due to wrong pointer usage; try the exact code above. Use `valgrind` if available.
+- **Unzipping problems**: install `unzip` or use the Codespace file manager to extract the zip.
+
+---
+
+If you want, I can:
+- produce a single `commit` command sequence you can paste to push everything to GitHub,
+- or produce a short Makefile (if your environment lacks it),
+- or show how to change GENERATIONS at runtime (compile-time flag vs editing code).
+
+Which of those next steps would you like me to include now?
